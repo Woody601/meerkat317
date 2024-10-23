@@ -36,13 +36,8 @@ export default function Contact() {
   }
 
   return (
-    <>
-      <Head>
-        <title>Contact</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h1>Contact</h1>
+    <main>
+      <h1 className={styles.title}>Contact</h1>
       <form className={styles.form} onSubmit={contactFormSubmit}>
         <label>Name:</label>
         <input
@@ -83,6 +78,6 @@ export default function Contact() {
           Submit
         </button>
       </form>
-    </>
+    </main>
   );
 }

@@ -1,3 +1,10 @@
+.title {
+  color: #2b5741;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .form {
   padding: 8px;
   margin: auto;
@@ -16,6 +23,7 @@
 .form input {
   font-size: 16px;
   padding: 12px;
+  border: 1px solid #ccc;
   font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +34,7 @@
   height: 105px;
   min-height: 21px;
   max-height: 210px;
+  border: 1px solid #ccc;
   font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   resize: vertical;
 }
