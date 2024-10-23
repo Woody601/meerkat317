@@ -1,0 +1,9 @@
+main {
+  padding: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
